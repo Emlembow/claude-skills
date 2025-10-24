@@ -1,0 +1,48 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Node (if using JavaScript tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Personal notes (optional)
+NOTES.md
+TODO.md
+private/
