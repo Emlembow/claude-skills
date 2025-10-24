@@ -44,9 +44,16 @@ Use the `/v1/skills` endpoint to add skills to your API requests. See [API docum
 
 ## Available Skills
 
-<!-- Add your skills here as you create them -->
+### [Frontend Aesthetics](skills/frontend-aesthetics/)
+Ensures websites and web applications are built with distinctive, creative aesthetics that avoid generic "AI slop" design patterns. This skill guides Claude to create intentional, context-specific designs with:
 
-*No custom skills added yet. Check back soon!*
+- **Unique typography** - Distinctive font pairings beyond overused defaults
+- **Cohesive color themes** - Mood-driven palettes inspired by IDE themes, art movements, and nature
+- **Orchestrated animations** - Meaningful motion that enhances the experience
+- **Atmospheric backgrounds** - Layered gradients, patterns, and contextual effects
+- **Strategic layouts** - Breaking the grid when appropriate for visual impact
+
+Perfect for any HTML, React, or web-based artifact creation.
 
 ## Creating Your Own Skills
 
