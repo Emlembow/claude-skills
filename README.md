@@ -19,11 +19,13 @@ Learn more: [Anthropic Skills Announcement](https://www.anthropic.com/news/skill
 claude-skills/
 ├── skills/           # Individual skill folders
 │   ├── skill-name/
-│   │   ├── skill.md  # Skill definition and instructions
+│   │   ├── SKILL.md  # Skill definition and instructions
 │   │   └── ...       # Additional resources/scripts
 ├── templates/        # Templates for creating new skills
 └── README.md
 ```
+
+Note: some older entries may use `skill.md`; new skills should prefer the current `SKILL.md` Agent Skills entrypoint.
 
 ## Using These Skills
 
@@ -55,12 +57,23 @@ Ensures websites and web applications are built with distinctive, creative aesth
 
 Perfect for any HTML, React, or web-based artifact creation.
 
+### [SkillOpt Improve Skill](skills/skillopt-improve-skill/)
+Optimizes existing Claude/Codex skills toward measurable improvement goals using Microsoft SkillOpt-style methodology. This skill helps Claude:
+
+- **Design evals** - Turn an improvement goal into train/validation cases and scoring criteria
+- **Run rollouts** - Capture baseline and candidate behavior with structured result files
+- **Reflect on evidence** - Propose bounded, general SkillOpt-style edit patches
+- **Gate updates** - Accept only candidates that improve validation results without regressions
+- **Use SkillOpt proper** - Decide when to run Microsoft SkillOpt or a lightweight local loop
+
+Ideal when you have a skill and a concrete goal like improving trigger precision, tool-use reliability, task success rate, or validation behavior.
+
 ## Creating Your Own Skills
 
 ### Quick Start
 
 1. Copy the template from `templates/skill-template/`
-2. Customize the `skill.md` file with your instructions
+2. Customize the `SKILL.md` file with your instructions
 3. Add any necessary scripts or resources
 4. Test with Claude Code or Claude apps
 5. (Optional) Submit a PR to share with the community
@@ -69,7 +82,7 @@ Perfect for any HTML, React, or web-based artifact creation.
 
 Each skill folder should contain:
 
-- `skill.md` - Main skill definition with instructions for Claude
+- `SKILL.md` - Main skill definition with instructions for Claude
 - `README.md` (optional) - Human-readable documentation
 - Scripts/resources (optional) - Any code or files the skill needs
 

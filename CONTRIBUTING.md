@@ -19,7 +19,7 @@ Thank you for your interest in contributing! This document provides guidelines f
    ```
 
 3. **Use the Template**
-   - Copy `templates/skill-template/skill.md` to your skill folder
+   - Copy `templates/skill-template/skill.md` to `SKILL.md` in your skill folder
    - Copy `templates/skill-template/README.md` if you want human-readable docs
    - Customize both files for your skill
 
