@@ -1,3 +1,8 @@
+---
+name: your-skill-name
+description: Briefly describe what this skill does and when Claude should use it.
+---
+
 # [Skill Name]
 
 ## Description

@@ -19,9 +19,10 @@ Thank you for your interest in contributing! This document provides guidelines f
    ```
 
 3. **Use the Template**
-   - Copy `templates/skill-template/skill.md` to your skill folder
+   - Copy `templates/skill-template/SKILL.md` to `SKILL.md` in your skill folder
    - Copy `templates/skill-template/README.md` if you want human-readable docs
-   - Customize both files for your skill
+   - Add `.claude-plugin/plugin.json` so the skill is installable through Claude Code marketplaces
+   - Customize all files for your skill
 
 4. **Follow Best Practices**
    - Keep skills focused on specific tasks
@@ -30,11 +31,15 @@ Thank you for your interest in contributing! This document provides guidelines f
    - Test thoroughly before submitting
    - Document any dependencies
 
-5. **Update Main README**
+5. **Update Marketplace Files**
+   - Add your skill to `.claude-plugin/marketplace.json`
+   - Run `npm run validate`
+
+6. **Update Main README**
    - Add your skill to the "Available Skills" section
    - Include a brief description and link to the skill folder
 
-6. **Submit a Pull Request**
+7. **Submit a Pull Request**
    - Create a descriptive PR title (e.g., "Add [skill-name] skill")
    - Describe what the skill does and why it's useful
    - Include testing results or examples
@@ -46,6 +51,10 @@ Thank you for your interest in contributing! This document provides guidelines f
 Every skill must have:
 - [ ] Clear description of purpose
 - [ ] When to use / trigger conditions
+- [ ] Valid `SKILL.md` YAML frontmatter
+- [ ] `.claude-plugin/plugin.json` manifest
+- [ ] `.claude-plugin/marketplace.json` entry
+- [ ] `npm run validate` passes
 - [ ] Step-by-step instructions
 - [ ] At least one example
 - [ ] Error handling guidance

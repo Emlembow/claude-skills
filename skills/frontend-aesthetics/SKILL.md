@@ -1,3 +1,8 @@
+---
+name: frontend-aesthetics
+description: Guides distinctive frontend and web artifact design with intentional typography, color, animation, backgrounds, and layout choices. Use when creating or revising HTML, React, web apps, UI prototypes, landing pages, dashboards, or other browser-based visual experiences that should avoid generic AI-generated aesthetics.
+---
+
 # Frontend Aesthetics Skill
 
 ## Purpose
