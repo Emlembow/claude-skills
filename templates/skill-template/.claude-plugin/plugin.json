@@ -1,0 +1,10 @@
+{
+  "name": "your-skill-name",
+  "description": "Briefly describe what this skill does and when Claude should use it.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Name"
+  },
+  "repository": "https://github.com/Emlembow/claude-skills",
+  "license": "MIT"
+}

@@ -29,7 +29,8 @@ How to use this skill in different contexts:
 
 ## Files
 
-- `skill.md` - Main skill instructions for Claude
+- `SKILL.md` - Main skill instructions for Claude
+- `.claude-plugin/plugin.json` - Claude Code plugin metadata
 - `README.md` - This documentation file
 - Add any additional files your skill needs
 
@@ -43,8 +44,8 @@ List any dependencies:
 ## Testing
 
 How to test this skill:
-1. Test case 1
-2. Test case 2
+1. Run `npm run validate` from the repository root
+2. Load locally with `claude --plugin-dir ./skills/[skill-name]`
 
 ## Contributing
 

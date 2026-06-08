@@ -1,0 +1,19 @@
+{
+  "name": "emlembow-skills",
+  "description": "A marketplace of custom Claude Code skills for frontend design and skill optimization workflows.",
+  "owner": {
+    "name": "Emlembow"
+  },
+  "plugins": [
+    {
+      "name": "frontend-aesthetics",
+      "description": "Distinctive frontend and web artifact design guidance.",
+      "source": "./skills/frontend-aesthetics"
+    },
+    {
+      "name": "skillopt-improve-skill",
+      "description": "SkillOpt-style eval, rollout, reflection, patching, and validation for improving skills.",
+      "source": "./skills/skillopt-improve-skill"
+    }
+  ]
+}
